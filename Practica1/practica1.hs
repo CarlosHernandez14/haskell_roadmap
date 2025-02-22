@@ -19,10 +19,11 @@ figuras maxL maxP minA = (
         ]
     )
 
+suma a b c = a + b + c
 
-main = do
-    putStrLn "Ingrese los valores maximos de los lados, perimetro y area"
-    maxL <- getLine
-    maxP <- getLine
-    minA <- getLine
-    print(figuras (read maxL) (read maxP) (read minA))
+-- main = do
+--     putStrLn "Ingrese los valores maximos de los lados, perimetro y area"
+--     maxL <- getLine
+--     maxP <- getLine
+--     minA <- getLine
+--     print(figuras (read maxL) (read maxP) (read minA))
